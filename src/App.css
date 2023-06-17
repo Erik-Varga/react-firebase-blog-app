@@ -1,5 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Luckiest+Guy:wght@400;600;700&display=swap');
+
 .App {
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  list-style: none;
+  margin: 0.3rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  list-style: none;
+  margin: 0.3rem;
+}
+
+.header,
+.footer a {
+  text-decoration: none;
+}
+
+.progress-container {
+  height: 30px;
+}
+
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+/* hide scrollbar but allow scrolling */
+element {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
 }
 
 .App-logo {
